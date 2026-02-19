@@ -42,7 +42,7 @@ const steps = [
 /* ================= COMPONENT ================= */
 
 export default function Home() {
-  const [activeStep, setActiveStep] = useState(2);
+  const [activeStep, setActiveStep] = useState(0);
   const formRef = useRef<HTMLFormElement | null>(null);
 
   const [selectedCab, setSelectedCab] = useState(cabStyles[0].id);
